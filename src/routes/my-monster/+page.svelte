@@ -5,18 +5,10 @@
 
 <h2>My Monster</h2>
 
-<div class="monsters">
+<div class="flex flex-row flex-wrap justify-center">
     {#each $caughtMonsters as monster}
         <Monster {monster} />
     {/each}
 </div>
 
-<style>
-   .monsters{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-   } 
-</style>
 
