@@ -1,0 +1,8 @@
+version: '3'
+services:
+  pokedextest:
+    image: pokedex:latest
+    container_name: pokedextest
+    ports:
+      - 3000:5173
+    restart: unless-stopped
